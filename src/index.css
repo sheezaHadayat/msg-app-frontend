@@ -1,0 +1,53 @@
+/* MessageForm.css */
+
+.message-form {
+  
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 100%;
+}
+
+.message-form h2 {
+  text-align: center;
+  margin: 0 0 20px;
+  color: #007BFF;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  height: 100px; /* Adjust the height as needed */
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
